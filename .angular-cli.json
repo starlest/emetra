@@ -19,7 +19,9 @@
       "tsconfig": "tsconfig.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "assets/css/styles.css",
+        "assets/css/ng2-select.css",
+        "assets/css/bootstrap.css"
       ],
       "scripts": [],
       "environmentSource": "environments/environment.ts",

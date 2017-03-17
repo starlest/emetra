@@ -8,7 +8,7 @@ import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from  './home/home.component';
 import { NavbarComponent } from './navbar/navbar.component';
 
-import { ButtonsModule } from 'ng2-bootstrap';
+import { ButtonsModule, CollapseModule } from 'ng2-bootstrap';
 
 import { AppRouting } from './app.routing';
 
@@ -29,6 +29,7 @@ import { AppRouting } from './app.routing';
 		 * ng2-bootsrap
 		 */
 		ButtonsModule.forRoot(),
+		CollapseModule.forRoot()
 	],
 	providers: [],
 	bootstrap: [AppComponent]
